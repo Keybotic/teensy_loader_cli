@@ -17,4 +17,9 @@ install(
   DIRECTORY src/
   DESTINATION src
 )
+
+install(PROGRAMS
+  scripts/flash_teensy_40.sh
+  DESTINATION lib/${PROJECT_NAME})
+
 ament_package()
