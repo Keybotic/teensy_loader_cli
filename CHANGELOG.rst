@@ -2,8 +2,8 @@
 Changelog for package teensy_loader_cli
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.3 (2022-11-18)
+------------------
 * Stop power board frontend before flashing
 * Contributors: Victor Lopez
 
