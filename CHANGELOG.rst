@@ -2,6 +2,11 @@
 Changelog for package teensy_loader_cli
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Stop power board frontend before flashing
+* Contributors: Victor Lopez
+
 0.0.2 (2022-06-01)
 ------------------
 * Add flash_teensy_40.sh script
