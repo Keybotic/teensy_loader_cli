@@ -2,8 +2,8 @@
 Changelog for package teensy_loader_cli
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.4 (2023-02-16)
+------------------
 * Add workaround to flash in case we use a firmware with dual serial
 * Contributors: Victor Lopez
 
