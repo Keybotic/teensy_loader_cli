@@ -2,6 +2,11 @@
 Changelog for package teensy_loader_cli
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Add workaround to flash in case we use a firmware with dual serial
+* Contributors: Victor Lopez
+
 0.0.3 (2022-11-18)
 ------------------
 * Stop power board frontend before flashing
