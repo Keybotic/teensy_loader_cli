@@ -337,6 +337,11 @@ int soft_reboot(void)
 	serial_handle = open_usb_device(0x16C0, 0x0483);
 	if (!serial_handle) {
 		char *error = usb_strerror();
+		printf("Error opening USB device: %s\n Trying to open 0x048b which is the dual serial id", error);
+		serial_handle = open_usb_device(0x16C0, 0x048b);
+	}
+	if (!serial_handle) {
+		char *error = usb_strerror();
 		printf("Error opening USB device: %s\n", error);
 		return 0;
 	}
